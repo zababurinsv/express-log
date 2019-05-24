@@ -1,0 +1,26 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "node": "nodemon --experimental-modules index.mjs",
+    "log": "node script-file.js > log-file.txt"
+  },
+  "keywords": [
+    "excel"
+  ],
+  "author": "Zababurin Sergey",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "log4js": "^4.3.0",
+    "node-xlsx": "^0.15.0",
+    "read-excel-file": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
